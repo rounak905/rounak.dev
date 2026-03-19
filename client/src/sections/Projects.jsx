@@ -7,7 +7,7 @@ export default function Projects() {
       description:
         'Medical students often lack interactive tools to learn anatomy effectively. An AR-based learning tool is needed to provide immersive visualization of human anatomy.',
       tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-      logo: '/images/ar-anatomy-logo.png',
+      logo: './images/ar-anatomy-logo.png',
       github: 'https://github.com/rounak905/ar-based-anatomy-project',
       live: '#',
     },
@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         'A MERN-based Carbon Footprint Tracker that lets users log daily activities, auto-calculate CO₂ emissions, view progress, unlock achievements, and compare scores on a real-time leaderboard.',
       tags: ['React', 'Next.js', 'MongoDB', 'Node.js'],
-      logo: '/images/carbon-tracker-logo.png',
+      logo: './images/carbon-tracker-logo.png',
       github: 'https://github.com/rounak905/Carbon-Footprint-Tracker',
       live: '#',
     },
@@ -25,7 +25,7 @@ export default function Projects() {
       description:
         'An AI-powered sales coach that helps sales professionals improve their sales skills through interactive training and real-time feedback.',
       tags: ['Python', 'HTML', 'CSS3'],
-      logo: '/images/ai-sales-coach-logo.png',
+      logo: './images/ai-sales-coach-logo.png',
       github: 'https://github.com/rounak905/AI-Sales-Coach',
       live: 'https://rounak905.github.io/AI-Sales-Coach/',
     },
