@@ -13,7 +13,7 @@ export default function About() {
         <div className="about__grid">
           <div className="about__image-wrapper gs-hidden-left">
             <div className="about__image-glow"></div>
-            <img className="about__image" src="./images/profile.png" alt="Rounak Kumar" />
+            <img className="about__image" src={`${import.meta.env.BASE_URL}images/profile.png`} alt="Rounak Kumar" />
           </div>
 
           <div className="about__text gs-hidden-right">

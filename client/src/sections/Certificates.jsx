@@ -7,32 +7,32 @@ export default function Certificates() {
     {
       title: 'Full Stack Web Dev',
       issuer: 'CipherSchools',
-      image: './images/certificates/cert-fullstack.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-fullstack.jpg',
     },
     {
       title: 'Computer Communications Specialization',
       issuer: 'Coursera',
-      image: './images/certificates/cert-computer-comm.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-computer-comm.jpg',
     },
     {
       title: 'Packet Switching Networks and Algorithms',
       issuer: 'Coursera',
-      image: './images/certificates/cert-packet-switching.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-packet-switching.jpg',
     },
     {
       title: 'TCP/IP and Advanced Topics',
       issuer: 'Coursera',
-      image: './images/certificates/cert-tcpip.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-tcpip.jpg',
     },
     {
       title: 'The Bits and Bytes of Computer Networking',
       issuer: 'Google',
-      image: './images/certificates/cert-networking.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-networking.jpg',
     },
     {
       title: 'Introduction to Hardware and Operating Systems',
       issuer: 'IBM',
-      image: './images/certificates/cert-hardware-os.jpg',
+      image: import.meta.env.BASE_URL + 'images/certificates/cert-hardware-os.jpg',
     },
   ];
 
